@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiko|Jacques+Francois+Shadow|Lexend+Zetta|Libre+Barcode+39+Extended+Text|Major+Mono+Display|Mallanna|Nanum+Gothic+Coding|PT+Mono|Quattrocento|Questrial|Scope+One|Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+.body1 {
+  background-color: rgb(100, 110, 190);
+
+  display: block;
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3%;
+}
+
+/* main page */
+
+#titleName {
+  background-color: white;
+  display: block;
+  font-family: OCR A Std, monospace;
+  text-align: right;
+  font-weight: bolder;
+  border-radius:5px;
+  padding: 30px;
+margin: 50px;
+}
+/* nav menu */
+.menuLink {
+  display: inline;
+  padding-right:15px;
+  font-family: OCR A Std, monospace;
+  text-decoration: none;
+  color: indigo;
+  text-shadow: 2px 2px rgb(255, 255, 150),
+    -2px 2px rgb(255, 255, 150),
+    2px -2px rgb(255, 255, 150),
+    -2px 2px rgb(255, 255, 150);
+}
+
+.menuLink:hover {
+  background-color: rgb(150, 255, 255);
+}
+
+.topPics {
+  width: 95%;
+  margin-top: 50px;
+  border-style: double;
+  border-color: rgb(255, 255, 150);
+  border-width: medium;
+}
+
+/* right image */
+#rText {
+  font-family: "Roboto-Mono", monospace;
+  font-size: 20px;
+  color: white;
+  text-align: right;
+}
+
+#rightImgDiv {
+  float: right;
+  display: inline-block;
+  width: 50%;
+}
+
+#bodyPic {
+  float: right;
+}
+
+/* left image */
+#lText {
+  font-family: "Roboto-Mono", monospace;
+  font-size: 20px;
+  color: white;
+  text-align: left;
+}
+
+#leftImgDiv {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#bodyPicTwo {
+  height: inherit;
+  float: left;
+}
+
+/* apply to both image texts texts */
+#strong {
+  font-weight: bold;
+  color: black;
+}
+
+/* elliptical styled div visually delineating where the button goes */
+#buttonZone {
+  display: inline-block;
+  box-sizing: border-box;
+  float: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  padding: 3%;
+  background-color: rgb(190, 190, 250);
+  width: 98%;
+  height: 500px;
+  border-width: 30px;
+  border-radius: 300px;
+  border-color: rgb(200, 255, 200);
+  border-style: outset;
+  min-height: 200px;
+}
+
+/* smaller interior div whose size is referenced in the js, helps the button not spill over too much */
+#buttonBarrier {
+  margin: 8%;
+}
+
+/* my button :3 */
+#clickMyFeelings {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 3%;
+  margin-top: 3%;
+  background-color: #929099;
+  border-radius: 20px;
+  color: rgb(92, 56, 255);
+}
+
+/* self explanatory */
+#videoDiv {
+  margin-left: -10%;
+  margin-right: -5%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#bloopVid {
+  width: 100%;
+}
+
+/*black div at the bottom of the page*/
+#goodbye {
+  display: inline-block;
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+}
+
+#goodbyetext {
+  font-family: "Inconsolata";
+  font-size: 20px;
+  margin-top: 2%;
+  text-align: center;
+  color: lime;
+}
+
+/* link styling */
+.contact {
+  color: lime;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: #ffc2cc;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gayathri|Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amiko|Jacques+Francois+Shadow|Lexend+Zetta|Libre+Barcode+39+Extended+Text|Major+Mono+Display|Mallanna|Nanum+Gothic+Coding|PT+Mono|Quattrocento|Questrial|Scope+One|Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+.body1 {
+  background-color: rgb(100, 110, 190);
+
+  display: block;
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3%;
+}
+
+/* nav menu */
+.menuLink {
+  display: inline;
+  padding-right:15px;
+  font-family: OCR A Std, monospace;
+  text-decoration: none;
+  color: indigo;
+  text-shadow: 2px 2px rgb(255, 255, 150),
+    -2px 2px rgb(255, 255, 150),
+    2px -2px rgb(255, 255, 150),
+    -2px 2px rgb(255, 255, 150);
+}
+
+.menuLink:hover {
+  background-color: rgb(150, 255, 255);
+}
+
+#nothingYet{
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top:50px;
+  margin-bottom:50px;
+  padding: 50px;
+  background:white;
+  border-radius: 10px;
+  font-family: monospace;
+  text-align:center;
+  font-size: 20px;
+}
