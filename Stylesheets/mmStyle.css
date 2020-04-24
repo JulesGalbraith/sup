@@ -95,4 +95,14 @@ background-color: #c8ff91;
 #videoFlex{
   margin: 7%;
   display: inline-flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.flexcontent{
+flex-grow:1;
+width:600px;
+height: 400px;
+box-shadow: 0 0 0 30px white;
+border-radius: 5px;
 }
