@@ -92,11 +92,14 @@ background-color: #c8ff91;
   margin-right: 10%;
 }
 
-#videoFlex{
-  margin: 5%;
+.videoFlex{
+  margin-left: 10%;
+  width: 70%;
+  margin-top: 5%;
   display: inline-flex;
-  align-items: stretch;
-  justify-content: center;
+  justify-content: space-between;
+  background-color: white;
+  flex-direction: row;
   padding: 5%;
 }
 
