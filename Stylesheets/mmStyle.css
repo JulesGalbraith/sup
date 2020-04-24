@@ -60,3 +60,34 @@ margin: 50px;
   width: 92%;
   height: 85%;
 }
+
+.collapseHeader{
+  margin-left: 10%;
+  margin-right:10%;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  font-family: OCR A Std, monospace;
+}
+
+.collapseHeader:hover{
+background-color: #c8ff91;
+}
+
+.textBackground {
+  margin-left: 9%;
+  margin-right:9%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-indent: 5%;
+  font-family: monospace;
+  font-size: 15px;
+  background: white;
+  border-radius: 5px;
+}
+.axiom {
+  margin-left: 10%;
+  margin-right: 10%;
+}
