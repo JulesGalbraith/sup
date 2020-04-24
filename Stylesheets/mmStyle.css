@@ -17,7 +17,7 @@
 
 /* main page */
 
-#intro {
+.intro {
   background-color: white;
   display: block;
   font-family: OCR A Std, monospace;
@@ -93,16 +93,18 @@ background-color: #c8ff91;
 }
 
 #videoFlex{
-  margin: 7%;
+  margin: 5%;
   display: inline-flex;
+  align-items: stretch;
   justify-content: center;
-  padding: 3%;
+  padding: 5%;
 }
 
 .flexcontent{
 flex-grow:1;
-width:600px;
-height: 400px;
+width:500px;
+height: 315px;
+max-width: 90%;
 box-shadow: 0 0 0 30px white;
 border-radius: 5px;
 }
