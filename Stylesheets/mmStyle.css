@@ -91,3 +91,8 @@ background-color: #c8ff91;
   margin-left: 10%;
   margin-right: 10%;
 }
+
+#videoFlex{
+  margin: 7%;
+  display: inline-flex;
+}
