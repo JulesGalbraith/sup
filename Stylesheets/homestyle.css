@@ -171,5 +171,24 @@ margin: 50px;
   color: #ffc2cc;
 }
 
-
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*In Brief Page*/
+
+#imageFlex{
+  margin-top: 5%;
+  justify-content: space-around;
+  align-items: stretch;
+display: inline-flex;
+flex-wrap: wrap;
+
+}
+
+.linkImages {
+  margin: 5%;
+width: 500px;
+height: 500px;
+box-shadow: 0 0 30px 20px white;
+border-radius: 10px;
+
+}
