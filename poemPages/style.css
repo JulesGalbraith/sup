@@ -47,14 +47,6 @@
     2px 2px 0 #000;
 }
 
-#invisible {
-  position: absolute;
-  margin: auto;
-  float: center;
-  width: 100%;
-  height: 500px;
-  z-index: 20;
-}
 
 /* final 6 */
 #wholePage {
@@ -65,7 +57,8 @@
 #poem2 {
   animation: whereUGo 6s infinite;
   position: absolute;
-  margin: 15%;
+  margin-left: 30%;
+  margin-top:15%;
   text-align: justify;
   font-size: 50px;
   font-family: Inconsolata;
@@ -83,7 +76,7 @@
   }
 
   25% {
-    opacity: 0;
+    opacity: 50;
   }
 
   75% {

@@ -185,10 +185,31 @@ flex-wrap: wrap;
 }
 
 .linkImages {
-  margin: 5%;
+margin: 5%;
 width: 500px;
 height: 500px;
 box-shadow: 0 0 30px 20px white;
 border-radius: 10px;
 
+}
+
+.samePagePoem {
+margin: 5%;
+box-shadow: 0 0 30px 10px white;
+border-radius: 10px;
+}
+
+/*///////////////////////////*/
+
+/*Publications page*/
+
+.pubImgLink{
+  position: relative;
+  align: center;
+  width: 500px;
+  height: 500px;
+  margin-top: 10%;
+  margin-right:20%;
+  box-shadow: 0 0 30px 10px white;
+  border-radius: 10px;
 }
