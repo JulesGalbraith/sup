@@ -72,6 +72,7 @@ margin: 50px;
 
 .collapseHeader:hover{
 background-color: #c8ff91;
+cursor: pointer;
 }
 
 .textBackground {
